@@ -79,7 +79,7 @@ class Home extends Component {
                 <header className="header">
                     <h1>Hi! I'm Eric.</h1>
                     <h3>I am an aspiring web and mobile developer. 
-                        I like solving problems and building technologies that makes an impact.</h3>
+                        I like solving problems and building technologies that make an impact.</h3>
                 </header>
                 <ul className="contactInfo">
                     {contactInfo.map((item, i) => 

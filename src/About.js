@@ -13,13 +13,13 @@ class About extends Component {
                     <p>
                         After initially purusing a math degree at University of Washington, I realized that
                         math was not something I want to do for a career. However, I've always enjoyed the 
-                        problem solving and logical thinking aspect of math. This led me to changing my major to 
+                        problem solving and logical thinking aspect of math. This led me to change my major to 
                         Informatics, with a focus in Human Computer Interaction. 
                         <br />
                         <br/ >
-                        Since then, I have been working towards to becoming a web and mobile developer, where 
-                        I am able to use the problem solving skills gained from taking numerous math courses to 
-                        developing apps that people will want to use.
+                        Since then, I have been working towards to becoming a web and mobile developer, where I 
+                        am able to apply my problem solving skills, gained from taking numerous math courses, to 
+                        developing applications that are more user-centered and solves various type of problems. 
                         <br />
                         
                         
