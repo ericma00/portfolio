@@ -1,0 +1,38 @@
+.about {
+    height: 100%;
+    background-color: #fbf1ca;
+    padding: 8rem 0;
+    text-align: center;
+    color: #666666;
+}
+
+.about h1 {
+    margin: 0;
+    color: #7f7f7f;
+    border-bottom: 0.4rem solid #7f7f7f;
+    display: inline-block;  
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.content {
+    width: 90%;
+    padding: 0 1rem;
+}
+
+.content img, .content p {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content img {
+    width: 30%;
+}
+
+.content p {
+    padding-left: 8rem;
+    width: 50%;
+    font-size: 18pt;
+    text-align: left;
+    
+}

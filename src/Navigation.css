@@ -1,0 +1,46 @@
+.navbar {
+    height: 76px;
+    width: 100%;
+    margin: 0;
+    background-color: #90ccf4;
+    color: white;
+    position: fixed;
+}
+
+.navLink li {
+    font-size: 20pt;
+    float: right; 
+    padding: 1rem 2.5rem;
+    list-style-type: none;
+    font-weight: bold; 
+}
+
+.logo, .navLink {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 1rem 0;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo p {
+    font-size: 20pt;
+    border: solid white 2px;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.navLink {
+    width: 80%;
+    padding: 0 2rem;
+}
+
+.navbar a {
+    color: white;
+}
+
+
