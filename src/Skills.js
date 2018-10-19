@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Skills.css';
 
-var web_dev = ['Java', 'JavaScript', 'HTML & CSS', 'ES6',
+var web_dev = ['Java', 'React-Native', 'JavaScript', 'HTML & CSS', 'ES6',
               'Node.js', 'React.js', 'JQuery', 'Git & Github', 
               'Bash', 'SQL'];
 
@@ -17,7 +17,7 @@ class Skills extends Component {
             <div className="skills" id="skills">
                 <h1>Skills</h1>
                 <div className="web_dev">
-                    <h2>Web Development</h2>
+                    <h2>Web/Mobile Development</h2>
                     <ul>
                         {web_dev.map((item, i) => 
                         <li key={i}>{item}</li>)}

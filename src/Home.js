@@ -92,6 +92,8 @@ class Home extends Component {
                         </li>
                     )}   
                 </ul>
+                <p style={{color: 'red', fontWeight: 'bold'}}>Disclaimer: Currently is not compatible with mobile or tablet</p> 
+
 
             </div>
         )

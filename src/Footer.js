@@ -53,7 +53,7 @@ class Footer extends Component {
                             </a>
                         </li>
                     )}
-                    <p>&copy;Eric Ma</p>
+                    <p>&copy; Eric Ma</p>
                 </ul>
             </div>
         )

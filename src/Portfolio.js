@@ -8,6 +8,7 @@ import safistation from './img/safistation.PNG';
 import phylogeneticTree from './img/phylogenetic_tree.PNG';
 import massShooting from './img/mass_shooting.PNG';
 import tic_tac_toe from './img/tic-tac-toe.PNG';
+import pom from './img/pomodoro.PNG';
 
 var project = [
     {
@@ -30,6 +31,13 @@ var project = [
         demo: 'https://ericma00.github.io/tic-tac-toe/',
         code: 'https://github.com/ericma00/tic-tac-toe',
         img: tic_tac_toe
+    },
+    {
+        name: 'Pomodoro/Timer/Stopwatch',
+        description: 'Various timer application (include custom input time for pomodoro) that was developed to learn more about react state and props',
+        demo: 'https://ericma00.github.io/pomodoro/',
+        code: 'https://github.com/ericma00/pomodoro',
+        img: pom
     }
 ];
 
@@ -64,7 +72,9 @@ class Portfolio extends Component {
                 <h1>Portfolio</h1>
                 <ul>
                     <li className="safistation">
-                        <img src={safistation} />
+                        <a href="https://drive.google.com/file/d/1SSeGHf9SfYCw8QqVsMZOy3UnmmVV8R3u/view?usp=sharing" target="_blank">
+                            <img src={safistation} />
+                        </a>
                         <div className="description">
                             <h2>Chlorine Generator Dashboard</h2>
                             <p>A dashboard developed for a chlorine generator developed by the PATH and MSR, two global health organizations, to allow data transmission from the generator. Build with React.js, Redux, D3.js, and Python.</p>
@@ -75,7 +85,7 @@ class Portfolio extends Component {
                         </Button>
                         <Modal show={this.state.show} onHide={this.handleClose}>
                             <Modal.Body>
-                                <h4>Due to a signed Non Disclosure Agreenment with PATH, I am not allow to show the source code for this project. :(</h4>
+                                <h4>Due to a signed Non Disclosure Agreement with PATH, I am not allowed to show the source code for this project. :(</h4>
                             </Modal.Body>
                             <Modal.Footer>
                                 <Button onClick={this.handleClose}>Close</Button>

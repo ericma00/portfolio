@@ -16,6 +16,8 @@
     border: none;
     border-radius: 0;
     font-size: 15pt;
+    color: #90ccf4;
+    font-weight: bold;
 }
 
 .project p {
