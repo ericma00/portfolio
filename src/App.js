@@ -17,7 +17,7 @@ class App extends Component {
     }
     this.state={
       isTop: true,
-      style: style
+      style: style,
     }
   }
 
